@@ -1,0 +1,49 @@
+body {
+    background-color: lavender;
+    color: lavender;
+    font-family: 'Abel', sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: darkslateblue;
+    margin-top: 35vh;
+    padding: 0 5%;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+button {
+    padding: 15px 40px;
+    margin-bottom: 20px;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    font-size: 20px;
+    background-color: lavender;
+    cursor: pointer;
+    color: indigo;
+}
+
+button:hover {
+    background-color: plum;
+}
+
+span {
+    color: #B0E0E6;
+}
+
