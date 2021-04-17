@@ -42,4 +42,4 @@ counterApp.init = () => {
 
 $(() => {
     counterApp.init();
-})
+});
