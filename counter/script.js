@@ -1,31 +1,9 @@
 const counterApp = {};
 
-// // attach event listeners to the buttons
-// counterApp.init = () => {
-//     let counter = 0;
-//     $('#add').on('click', () => {
-//         counter = counter + 1;
-//         console.log(counter);
-//         $('p').html(counter);
-//     });
-
-//     $('#subtract').on('click', () => {
-//         counter = counter - 1;
-//         console.log(counter);
-//         $('p').html(counter);
-//     });
-
-//     $('#reset').on('click', () => {
-//         counter = 0;
-//         console.log(counter);
-//         $('p').html(counter);
-//     });
-// }
-
 // set initial value
 let counter = 0;
 
-// update the counter number on page
+// display the counter number on page
 counterApp.display = () => {
     if(counter < 0) {
         $('p').css('color', 'red');
@@ -38,7 +16,7 @@ counterApp.display = () => {
     $('p').html(counter);
 }
 
-// use the id to add, subtract or reset
+// use the id to add, subtract or reset counter
 counterApp.calculate = (queryId) => {
     console.log(queryId);
     if(queryId === "add") {
@@ -51,7 +29,7 @@ counterApp.calculate = (queryId) => {
     counterApp.display();
 };
 
-// another way using elicked button's id
+// get the id of the clicked button
 counterApp.init = () => {
     // add event listener to the buttons
     $('button').on('click', function() {
