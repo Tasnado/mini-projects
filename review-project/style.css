@@ -1,0 +1,89 @@
+body {
+    background-color: lightsteelblue;
+}
+
+main {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 90vh;
+}
+
+.review {
+    margin-top: 15vh;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    text-shadow: 1px 1px 2px midnightblue;
+}
+
+.container {
+    max-width: 600px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5%;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: whitesmoke;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 10px 0 10px 0;
+    color: midnightblue;
+    text-shadow: 1px 1px 2px lightsteelblue;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+p {
+    color: midnightblue;
+    font-size: 18px;
+    margin: 0;
+    height: 100px;
+}
+
+.arrows {
+    bottom: 3px;
+    margin: 5px 0;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    color: lightsteelblue;
+    font-size: 30px;
+}
+
+button:hover {
+    color: midnightblue;
+}
+
+
+/* responsive start */
+@media (max-width: 501px) {
+    .container {
+        height: 480px;
+    }
+    p {
+        height: 180px;
+    }
+}
