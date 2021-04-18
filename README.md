@@ -5,3 +5,4 @@ This repository will contain small projects I am making to better learn javascri
  - [Colour Flipper](https://github.com/Tasnado/mini-projects/tree/main/hex-colour-generator)
  - [Counter](https://github.com/Tasnado/mini-projects/tree/main/counter)
  - [Frequently Asked Questions Page](https://github.com/Tasnado/mini-projects/tree/main/faq-app)
+ - [Review](https://github.com/Tasnado/mini-projects/tree/main/review-project)
