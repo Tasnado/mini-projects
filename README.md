@@ -6,3 +6,4 @@ This repository will contain small projects I am making to get used to coding ev
  - [Counter](https://github.com/Tasnado/mini-projects/tree/main/counter)
  - [Frequently Asked Questions Page](https://github.com/Tasnado/mini-projects/tree/main/faq-app)
  - [Review](https://github.com/Tasnado/mini-projects/tree/main/review-project)
+ - [Responsive Navbar](https://github.com/Tasnado/mini-projects/tree/main/responsive-navbar)
